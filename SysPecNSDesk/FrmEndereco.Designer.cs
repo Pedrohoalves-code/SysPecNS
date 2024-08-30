@@ -28,9 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            label1 = new Label();
-            label2 = new Label();
-            label3 = new Label();
             label4 = new Label();
             label5 = new Label();
             label6 = new Label();
@@ -38,9 +35,6 @@
             label8 = new Label();
             label9 = new Label();
             label10 = new Label();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
-            txtCep = new TextBox();
             txtLogradouro = new TextBox();
             txtNumero = new TextBox();
             txtComplemento = new TextBox();
@@ -49,34 +43,13 @@
             txtUf = new TextBox();
             txtTipoEndereco = new TextBox();
             btnSalvarEndereco = new Button();
+            label1 = new Label();
+            label2 = new Label();
+            label3 = new Label();
+            textBox1 = new TextBox();
+            textBox2 = new TextBox();
+            txtCep = new TextBox();
             SuspendLayout();
-            // 
-            // label1
-            // 
-            label1.AutoSize = true;
-            label1.Location = new Point(104, 113);
-            label1.Name = "label1";
-            label1.Size = new Size(18, 15);
-            label1.TabIndex = 0;
-            label1.Text = "ID";
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Location = new Point(255, 113);
-            label2.Name = "label2";
-            label2.Size = new Size(44, 15);
-            label2.TabIndex = 1;
-            label2.Text = "Cliente";
-            // 
-            // label3
-            // 
-            label3.AutoSize = true;
-            label3.Location = new Point(449, 113);
-            label3.Name = "label3";
-            label3.Size = new Size(28, 15);
-            label3.TabIndex = 2;
-            label3.Text = "CEP";
             // 
             // label4
             // 
@@ -141,27 +114,6 @@
             label10.TabIndex = 9;
             label10.Text = "Tipo_endereços";
             // 
-            // textBox1
-            // 
-            textBox1.Location = new Point(77, 131);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(100, 23);
-            textBox1.TabIndex = 10;
-            // 
-            // textBox2
-            // 
-            textBox2.Location = new Point(216, 131);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(147, 23);
-            textBox2.TabIndex = 11;
-            // 
-            // txtCep
-            // 
-            txtCep.Location = new Point(391, 131);
-            txtCep.Name = "txtCep";
-            txtCep.Size = new Size(153, 23);
-            txtCep.TabIndex = 12;
-            // 
             // txtLogradouro
             // 
             txtLogradouro.Location = new Point(77, 187);
@@ -220,6 +172,54 @@
             btnSalvarEndereco.Text = "Salvar";
             btnSalvarEndereco.UseVisualStyleBackColor = true;
             // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(104, 113);
+            label1.Name = "label1";
+            label1.Size = new Size(18, 15);
+            label1.TabIndex = 0;
+            label1.Text = "ID";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(255, 113);
+            label2.Name = "label2";
+            label2.Size = new Size(44, 15);
+            label2.TabIndex = 1;
+            label2.Text = "Cliente";
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Location = new Point(449, 113);
+            label3.Name = "label3";
+            label3.Size = new Size(28, 15);
+            label3.TabIndex = 2;
+            label3.Text = "CEP";
+            // 
+            // textBox1
+            // 
+            textBox1.Location = new Point(77, 131);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(100, 23);
+            textBox1.TabIndex = 10;
+            // 
+            // textBox2
+            // 
+            textBox2.Location = new Point(216, 131);
+            textBox2.Name = "textBox2";
+            textBox2.Size = new Size(147, 23);
+            textBox2.TabIndex = 11;
+            // 
+            // txtCep
+            // 
+            txtCep.Location = new Point(391, 131);
+            txtCep.Name = "txtCep";
+            txtCep.Size = new Size(153, 23);
+            txtCep.TabIndex = 12;
+            // 
             // FrmEndereco
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -255,9 +255,6 @@
 
         #endregion
 
-        private Label label1;
-        private Label label2;
-        private Label label3;
         private Label label4;
         private Label label5;
         private Label label6;
@@ -265,9 +262,6 @@
         private Label label8;
         private Label label9;
         private Label label10;
-        private TextBox textBox1;
-        private TextBox textBox2;
-        private TextBox txtCep;
         private TextBox txtLogradouro;
         private TextBox txtNumero;
         private TextBox txtComplemento;
@@ -276,5 +270,11 @@
         private TextBox txtUf;
         private TextBox txtTipoEndereco;
         private Button btnSalvarEndereco;
+        private Label label1;
+        private Label label2;
+        private Label label3;
+        private TextBox textBox1;
+        private TextBox textBox2;
+        private TextBox txtCep;
     }
 }
